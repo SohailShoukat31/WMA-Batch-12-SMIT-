@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+p {
+  border-bottom: 15px solid rgb(58, 227, 219);
+  width: 30%;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 25px;
+}
+
+#one {
+  border-bottom: none;
+}

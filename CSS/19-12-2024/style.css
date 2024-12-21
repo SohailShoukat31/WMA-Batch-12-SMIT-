@@ -1,0 +1,54 @@
+@font-face {
+  font-family: my-font;
+  src: url(./assets/Poppins/Poppins-ExtraBold.ttf);
+}
+
+h1 {
+  text-align: center;
+  /* font-size: 300%; */
+}
+
+h2 {
+  /* Use of Font Family */
+  font-family: monospace;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 4px;
+  text-shadow: 2px 2px 2px gray;
+
+  /* Use of Font Size */
+  font-size: 24px;
+}
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+p {
+  font-family: my-font;
+  line-height: 34px;
+  text-align: center;
+  /* text-indent: 34px; */
+}
+p::first-letter {
+  color: red;
+  font-size: bold;
+}
+p::first-line {
+  color: red;
+}
+
+#two {
+  text-indent: 34px;
+}
+input:hover {
+  background-color: aquamarine;
+}
+input:active {
+  background-color: red;
+}
+input:focus {
+  background-color: orange;
+}
+
+#font {
+  font-family: "Kanit", serif;
+}
