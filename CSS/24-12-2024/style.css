@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+body {
+  font-family: sans-serif;
+}
+p,
+ul {
+  border: 2px solid rebeccapurple;
+  padding: 0.2em;
+}
+.block li {
+  border: 2px solid blue;
+  padding: 0.2em;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+.block {
+  display: block;
+}
+.box {
+  background-color: rebeccapurple;
+  width: 50%;
+  border: 3px solid red;
+  margin: 0px auto;
+}
+.text {
+  background-color: orange;
+  /* overflow: scroll; */
+  overflow: scroll;
+}
