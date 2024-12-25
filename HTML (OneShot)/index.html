@@ -23,90 +23,151 @@
     <!-- Anchor Tag -->
     <a href="https://google.com">Google</a>
     <p>
-
-        <!-- Br Tag Used to add next line(line breaks) to your page -->
-      Lorem ipsum dolor <br> sit amet consectetur, adipisicing elit. Id, doloribus
-      repellat? Soluta, consequatur.  <br>Magnam doloremque, aliquam cumque ipsum eos
-      pariatur provident atque magni sit, quaerat, qui dignissimos corrupti eius
+      <!-- Br Tag Used to add next line(line breaks) to your page -->
+      Lorem ipsum dolor <br />
+      sit amet consectetur, adipisicing elit. Id, doloribus repellat? Soluta,
+      consequatur. <br />Magnam doloremque, aliquam cumque ipsum eos pariatur
+      provident atque magni sit, quaerat, qui dignissimos corrupti eius
       praesentium.D
     </p>
 
     <!-- Bold, Italic & Underline Tags -->
-     <b>Bold</b> <br>
-     <i>Italic</i> <br>
-     <u>Underline</u> <br>
-     <!-- Big & Small Tags -->
-      <big>Big </big> <br>
-      <small>Small</small>
-      <!-- Hr Tag Used to display a horizontal ruler, used to separate content -->
-       <hr>
-       <hr>
-       <!-- Subscript & Superscript Tag -->
-        H<sub>2</sub>0
-        <hr>
-        a<sup>2</sup>
-        <br>
-        <!-- Pre Tag Used to display text as it is (without ignoring spaces & next line) -->
-         <pre>This
+    <b>Bold</b> <br />
+    <i>Italic</i> <br />
+    <u>Underline</u> <br />
+    <!-- Big & Small Tags -->
+    <big>Big </big> <br />
+    <small>Small</small>
+    <!-- Hr Tag Used to display a horizontal ruler, used to separate content -->
+    <hr />
+    <hr />
+    <!-- Subscript & Superscript Tag -->
+    H<sub>2</sub>0
+    <hr />
+    a<sup>2</sup>
+    <br />
+    <!-- Pre Tag Used to display text as it is (without ignoring spaces & next line) -->
+    <pre>
+This
             is a 
             simple Paragraph
-         </pre>
-         <p>
-            This
-            is a 
-            simple Paragraph
-         </p>
-         <!-- List Div Tags -->
-          <address>Hello Iam Sohail</address>
+         </pre
+    >
+    <p>This is a simple Paragraph</p>
+    <!-- List Div Tags -->
+    <address>Hello Iam Sohail</address>
 
-          <!-- List in HTML Lists are used to represent real life list data -->
-<!-- 
+    <!-- List in HTML Lists are used to represent real life list data -->
+    <!-- 
           unordered List -->
-          <ul>
-            <li>Mango</li>
-            <li>Apple</li>
-            <li>Banana</li>
-          </ul>
+    <ul>
+      <li>Mango</li>
+      <li>Apple</li>
+      <li>Banana</li>
+    </ul>
 
-          <!-- ordered -->
-           <ol>
-            <li>Mango</li>
-            <li>Apple</li>
-            <li>Banana</li>
-           </ol>
-           <hr>
-           <!-- Tables in HTML Tables are used to represent real life table data. -->
-           <!-- <tr> used to display table row
+    <!-- ordered -->
+    <ol>
+      <li>Mango</li>
+      <li>Apple</li>
+      <li>Banana</li>
+    </ol>
+    <hr />
+    <!-- Tables in HTML Tables are used to represent real life table data. -->
+    <!-- <tr> used to display table row
             <td>used to display table data
             <th> used to display table header -->
-              <h1>Table </h1>
-                  <!-- Caption in Tables -->
-                   <caption>Student Data</caption>
-          <table border="1px solid black">
-            <tr>
-              <th>Name</th>
-              <th>Roll No </th>
-              <th>Class</th>
-            </tr>
-            <tr>
-              <td>Sohail</td>
-              <td>1234</td>
-              <td>Matric</td>
-            </tr>
-            <tr>
-              <td>Ayan</td>
-              <td>1234</td>
-              <td>Nursery</td>
-            </tr>
-          </table>
-          <hr>
-          <h1>Form in HTML </h1>
-        <!-- Form in Html Forms are used to collect data from the user -->
-         <form action="">
-          <input type="text" placeholder="Enter your name ">
-         </form>
-      
+    <h1>Table</h1>
+    <!-- Caption in Tables -->
+    <caption>
+      Student Data
+    </caption>
+    <table border="1px solid black">
+      <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Class</th>
+      </tr>
+      <tr>
+        <td>Sohail</td>
+        <td>1234</td>
+        <td>Matric</td>
+      </tr>
+      <tr>
+        <td>Ayan</td>
+        <td>1234</td>
+        <td>Nursery</td>
+      </tr>
+    </table>
+    <hr />
+    <h1>Form in HTML</h1>
+    <!-- Form in Html Forms are used to collect data from the user -->
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" placeholder="Enter your name " />
+      <br />
+      <br />
+      <label for="email">Email :</label>
+      <input type="email" placeholder="Enter your Email :" />
 
-          
+      <!-- Checkbox -->
+      <br />
+      <h3>Choose Your Favourite Habits</h3>
+      <label>
+        <input type="checkbox" name="intrested" value="sports" />
+        Sports
+      </label>
+      <br />
+      <label>
+        <input type="checkbox" name="intrested" value="music" />
+        Music
+      </label>
+      <br />
+      <label>
+        <input type="checkbox" value="travel" name="intrested" />
+        Travel
+      </label>
+
+      <h3>Please add feedback</h3>
+      <label for="">
+        <textarea
+          name="feedback"
+          id="feedback"
+          placeholder="Please add feedback"
+        ></textarea>
+      </label>
+      <h3>Select Your City</h3>
+      <select name="city" id="city">
+        <option value="karachi">Karachi</option>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="sukkur">Sukkur</option>
+      </select>
+    </form>
+    <hr />
+    <h1>Class & Id</h1>
+    <hr />
+    <div id="id1" class="group1">Hello id and Class</div>
+    <div id="id2" class="group2">Hello id and Class</div>
+    <p>Note : Id is name by #tag and Class by .</p>
+    <li>.classname</li>
+    <li>#idname</li>
+    <hr />
+    <h3>iframe Tag</h3>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/HcOc7P5BMi4?si=uPoUGKzq3qvpzjoQ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <hr />
+    <h3>Video Tag</h3>
+    <!-- <video src=""></video> -->
+    <p>All the very best in your future journey :🙂👍</p>
+    <p>Sohail Shoukat</p>
   </body>
 </html>
