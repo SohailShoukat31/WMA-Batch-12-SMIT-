@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+.box {
+  border: 4px solid #0088dd;
+  height: 300px;
+  width: 300px;
+  background-color: #bbbbaa;
+  /* overflow: hidden; */
+  overflow: scroll;
+  border-width: 2px 12px 2px 12px;
+  /* border-style: double; */
+  /* visibility: hidden; */
+  visibility: visible;
+}
+p {
+  width: 75%;
+  height: 75%;
+  background-color: #0088dd;
+}
+td .description {
+  min-width: 450px;
+  max-width: 650px;
+  text-align: left;
+  padding: 5px;
+  margin: 0px;
+}
