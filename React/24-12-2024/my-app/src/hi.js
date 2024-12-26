@@ -1,10 +1,10 @@
 import React from "react";
 
-function Hi( props ) {
+function Hi(props) {
   return (
     <div>
       <h1>
-      <strimg>Hello Sohail Shoukat</strimg>
+        <strimg>Hello Sohail Shoukat</strimg>
         {/* <strong>Hello {props.name} </strong> */}
       </h1>
       <h3>Web and Mobile development </h3>
@@ -13,7 +13,7 @@ function Hi( props ) {
         <li>CSS</li>
         <li>JavaScript</li>
       </ul>
-      {5 + 10  }
+      {5 + 10}
     </div>
   );
 }

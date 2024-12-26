@@ -4,8 +4,14 @@
 
 // export default greet
 
-function Greet(name) {
-  return "Hi " + name;
+function Greet({name}) {
+  return (
+    <>
+    Hi  {name}
+    </>
+  )
+  
+  
 }
 
 export default Greet;
