@@ -1,0 +1,47 @@
+h1{
+    text-align: center ;
+}
+ul{
+    list-style-type: circle;
+    /* list-style-type: decimal;
+    list-style-type: disc; */
+}
+.container{
+    border: 2px solid black;
+    height: 800px;
+    width: 800px;
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    /* right: 0px;
+    bottom: 0px; */
+    /* left: 0px; */
+    /* top: 0px; */
+    z-index: 1
+    
+    
+    
+
+    
+    ;
+
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(123, 177, 177);
+    /* position: relative;     */
+    /* Free in Space */
+    /* left: 50px;
+    top: 10px ; */
+    position: absolute;
+
+}
+.one{
+    width: 200px;
+    height: 200px;
+}
