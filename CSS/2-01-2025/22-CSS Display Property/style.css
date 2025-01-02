@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /* margin: auto; */
+  border: 2px solid red;
+  width: 1200px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.top img {
+  margin: auto;
+  width: 100px;
+  display: block;
+}
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+
+.box {
+    border: 4px solid black;
+    background-color:aqua;
+    margin: 4px 0px;
+    padding: 23px;
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+div{
+    background-color: red;
+    margin: 20px;
+    padding: 10px;
+}
+p{
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 10px;
+}
+span{
+    
+     background-color: darkcyan;
+    width: 500px ;      /*  width does not effect because it is inline */
+    
+}
+button{
+    display: inline-block;
+    width: 50%;
+    padding: auto;
+}

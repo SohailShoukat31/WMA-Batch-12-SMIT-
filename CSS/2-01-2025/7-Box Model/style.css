@@ -1,0 +1,43 @@
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container {
+  background-color: #3394a8;
+  border: 3px solid black;
+
+  /* we can set padding for  top , bottom , right and left */
+  /* padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px; */
+
+  /* ShortHand Method */
+  /* padding : top right bottom left */
+  /* padding: 20px 10px 20px 10px ; */
+
+  /* padding   top/bottom left/right     y(top/bottom)  x(left/right) */
+  padding: 34px 40px;
+
+  /* margin */
+  /* margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px; */
+
+  /* Margin   top/bottom left/right     y(top/bottom)  x(left/right) */
+  margin: 30px 40px;
+
+  border-radius: 23px;
+  border: 2px solid black;
+  width: 300px;
+
+  /* box-sizing: border-box; */
+}

@@ -1,0 +1,8 @@
+/* Set different length values, using px (pixels): */
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 25px;
+    line-height: 60px;
+}

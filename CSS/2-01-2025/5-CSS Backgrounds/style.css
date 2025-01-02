@@ -1,0 +1,21 @@
+div {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: lightblue; /*Background color*/
+}
+.background-img {
+  width: 300px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR820ksFFh7HSQrVdsgnROKnAx-GYgrL7NCGdeziKy3DrlQTW4tQExqYCuAarO6gpmzZ5k&usqp=CAU);
+}
+
+.background-repeat {
+  width: 1000px;
+  height: 1000px;
+  background-image: url(https://www.w3schools.com/css/img_5terre.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* There are more properties about .background-imgage */

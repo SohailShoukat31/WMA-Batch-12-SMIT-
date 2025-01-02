@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.div-one {
+  width: 175px;
+  height: 200px;
+  text-align: center;
+  font-size: 20px;
+
+  background-color: crimson;
+  /* Now Use Border Properties */
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+
+  /*Shorthand method for border*/
+  border: 5px solid black;
+}
+.div-two {
+  width: 175px;
+  height: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: lightskyblue;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: blueviolet;
+  /*Shorthand method for border*/
+  border: 5px dashed blueviolet;
+}
+
+.div-three {
+  width: 175px;
+  height: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: cadetblue;
+  border-width: 5px;
+  border-style: groove;
+  border-color: blue;
+}
+
+.radius {
+  width: 175px;
+  height: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: darkblue;
+  border: 5px solid red;
+  border-radius: 20px;
+}
+
+/*Just go to for fun */
+.div-one:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+  color: black;
+}
+.div-two:hover {
+  background-color: brown;
+  color: black;
+  cursor: cell;
+}
+.div-three:hover {
+  background-color: cornsilk;
+  color: green;
+  cursor: pointer;
+}

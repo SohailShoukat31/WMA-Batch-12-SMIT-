@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  border: 2px solid black;
+}
+h1:hover {
+  color: navy;
+  cursor: pointer;
+}
+.text-color {
+  color: red; /* By Name*/
+}
+
+.text-color {
+  color: rgb(255, 0, 0); /*By RGB Value*/
+}
+
+.text-color {
+  color: #dd1a1a; /*By Hex Value*/
+}
+.bg-color {
+  background-color: blueviolet;
+}
+
+.hover-color {
+  color: white;
+  background-color: fuchsia;
+}
+
+.hover-color:hover {
+  color: yellow;
+  background-color: black;
+}

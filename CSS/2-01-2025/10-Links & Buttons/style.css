@@ -1,0 +1,79 @@
+.container {
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: aqua;
+  padding: 34px;
+  margin: 34px;
+  width: 666px;
+  margin: auto;
+}
+.btn {
+  background-color: green;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 5px;
+  color: white;
+}
+/* Hover */
+.btn:hover {
+  color: white;
+  background-color: blueviolet;
+}
+/* Visited */
+.btn :visited {
+  background-color: yellow;
+}
+/* Active */
+.btn:active {
+  background-color: cadetblue;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+/* some more example */
+.btn1 {
+  margin: 10px;
+  color: black;
+  border: 3px solid green;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn1:hover {
+  background-color: green;
+  color: white;
+}
+.btn2 {
+  margin: 10px;
+  color: black;
+  background-color: rgb(247, 69, 69);
+  padding: 10px 15px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn2:hover {
+  background-color: red;
+}
+button {
+  padding: 10px 20px;
+  background-color: rgb(68, 68, 143);
+  color: yellow;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+button:hover {
+  background-color: purple;
+  cursor: pointer;
+  color: white;
+}
+button:active {
+  background-color: red;
+  cursor: move;
+}

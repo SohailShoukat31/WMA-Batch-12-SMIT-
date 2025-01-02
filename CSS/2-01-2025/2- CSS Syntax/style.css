@@ -1,0 +1,16 @@
+h1 {
+  color: red;
+  background-color: black;
+  text-align: center;
+}
+
+/* 
+h1 is a selector in CSS 
+color is a property, and red is the property value
+text-align is a property, and center is the property value. */
+
+
+p {
+  background-color: blue;
+  color: black;
+}

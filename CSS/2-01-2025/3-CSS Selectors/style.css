@@ -1,0 +1,40 @@
+/* Univeral Selector  * {} */
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: lightskyblue;
+}
+
+/* Type Selector */
+h1,
+h2,
+h3 {
+  color: black;
+}
+
+/* Class Selector (.class) */
+.class {
+  width: 75px;
+  height: 75px;
+  border: 2px solid deeppink;
+  padding: 0 20px 20px 0px;
+  margin: 3px;
+}
+
+/* Id Selector (#id)  */
+
+#redElement {
+  background-color: red;
+}
+#greenElement {
+  background-color: green;
+}
+#yellowElement {
+  background-color: yellow;
+}
+/* Child Selector ul > li {} */
+ul > li {
+  color: red;
+  font-weight: bold;
+}
+
+/* Descendant Selector p a {} */
