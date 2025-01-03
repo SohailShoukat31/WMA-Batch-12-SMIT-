@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: black;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul li {
+  list-style: none;
+  padding: 17px;
+}
+
+.Home {
+  background-color: rgb(16, 123, 169);
+}
+.About {
+  background-color: rgb(16, 123, 169);
+}
+.App {
+  background-color: rgb(16, 123, 169);
+  height: auto;
+}
+.App input {
+  border: 3px solid rgb(16, 123, 169);
+}
+.App button {
+  background-color: yellow;
+  margin-top: 3px;
+  width: 10%;
+  border-radius: 10px;
+}
