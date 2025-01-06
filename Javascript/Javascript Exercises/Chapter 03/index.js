@@ -26,3 +26,6 @@ document.write(
     " " +
     "on XYZ Clothing Store"
 );
+
+var studentName = "Sohail Shoukat";
+console.log(studentName);
