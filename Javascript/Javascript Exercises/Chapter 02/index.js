@@ -35,3 +35,6 @@ document.write(simpleMessage);
 // 08
 var printMessage = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
 alert(printMessage);
+
+var studentName = "Sohail Shoukat ";
+console.log(studentName);
