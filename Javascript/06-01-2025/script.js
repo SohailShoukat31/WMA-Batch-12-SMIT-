@@ -86,3 +86,6 @@ console.log(weight);
 var orginalNum = 23;
 var newNum = orginalNum + 7;
 console.log(newNum);
+
+
+console.log("Thanks ❤")
