@@ -56,3 +56,5 @@ const myFunc = function () {
 console.log(myFunc);
 
 // You can use type of for check data type;
+
+alert("Sohail Shoukat");
