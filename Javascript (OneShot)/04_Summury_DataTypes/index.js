@@ -57,4 +57,27 @@ console.log(myFunc);
 
 // You can use type of for check data type;
 
-alert("Sohail Shoukat");
+// //  alert("Sohail Shoukat");
+
+// ++++++++++++++++++++++++++++ Stack  and  Heap +++++++++++++++++++++++++++
+
+// Stack (Primitiveb Data Types ) , Heap (Non-Primitive);
+
+let myYoutubename = "Ai Shows";
+let anotherName = myYoutubename;
+anotherName = "Ai Shows with Sohail";
+console.log(anotherName);
+console.log(myYoutubename);
+
+let userOne = {
+  email: "user@gmail.com",
+  upi: "user@ybl",
+};
+console.log(userOne);
+
+let userTwo = userOne;
+// console.log(userTwo)
+
+userTwo.email = "sohailshoukat131@gmail.com";
+console.log(userTwo.email);
+console.log(userOne.email);
