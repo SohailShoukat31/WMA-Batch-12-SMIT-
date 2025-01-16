@@ -1,0 +1,22 @@
+TypeScript is the superset of Javascript :
+TypeScript add Additional features :
+TypeScript code can be check for error  during development :
+TypeScript is introduced by 2012 by Microsoft :
+// TypeScript is a compilar language :
+// TypeScript is JavaScript with added syntax for types
+
+// First Program :
+Install Typescript in your laptop | Pc using this command
+npm install -g typescript
+
+// check version of ts
+tsc --version
+// Create a file  app.ts 
+// compile 
+tsc app.ts
+
+// Run 
+node app.js
+
+
+
