@@ -32,3 +32,47 @@ function issLoginIn(username) {
 }
 // console.log(issLoginIn("Sohail"));
 console.log(issLoginIn());
+
+// example
+function calculatorCartPrice(value1, valu2, ...number1) {
+  return number1;
+}
+console.log(calculatorCartPrice(200, 300, 300, 400));
+
+// example for practice
+
+function practiceFunc(val1, ...val2) {
+  return val2;
+}
+console.log(practiceFunc(1, 2, 3));
+// Object 1
+const user = {
+  username: "Sohail",
+  age: 19,
+};
+
+function handleObject(anyobject) {
+  console.log(
+    `Username is ${anyobject.username} and user age is ${anyobject.age}`
+  );
+}
+handleObject(user);
+// Object 2
+const car = {
+  color: "red",
+  model: 2023,
+};
+function myCar(mycar) {
+  console.log(
+    `The color of car is ${mycar.color} , and The model of car is ${mycar.model}`
+  );
+}
+myCar(car);
+
+// How pass array in function
+const myNewArray = [100, 200, 300];
+
+function returnSecondValue(getArray) {
+  return getArray[1];
+}
+console.log(returnSecondValue(myNewArray));
