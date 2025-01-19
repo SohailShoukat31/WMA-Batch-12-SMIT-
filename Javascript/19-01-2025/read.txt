@@ -1,0 +1,24 @@
+Function in Js 
+Piece of code | block of code that perform specific task ;
+we can invoked the function whenever its need ;
+
+console.log("Hello");
+console.log();  its a function
+"abc".toUpperCase() its is a function 
+
+Function defination                       Function Invoked | Call
+function functionNmae(){                    functionNmae();
+    do some work                     
+};
+
+function functionName(parm1 , parm2){
+    do some work
+} ; 
+
+functionName("a" , "b") ;  // Argument
+
+
+// Arrow Function 
+Compact way of writing  of function 
+
+
