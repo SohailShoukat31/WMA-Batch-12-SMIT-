@@ -22,3 +22,5 @@ functionName("a" , "b") ;  // Argument
 Compact way of writing  of function 
 
 
+
+Higher order function| methods which take a function as a parameters

@@ -71,3 +71,46 @@ const helloWorld = () => {
   console.log("Hello World !");
 };
 helloWorld();
+
+function xyz() {
+  console.log("Hello ");
+}
+
+function printFun(xyz) {
+  return xyz;
+}
+
+let arr = [1, 2, 3, 4, 5];
+arr.forEach(function printValue(val) {
+  console.log(val);
+});
+
+// As a arrow function
+
+arr.forEach((val) => {
+  console.log(val);
+});
+
+let arry = ["karachi", "sukkur", "jacobabad"];
+
+arry.forEach(function Cities(citiesNames, idx) {
+  console.log(citiesNames.toUpperCase(), idx);
+});
+
+let numbers = [1, 2, 3, 4, 5];
+numbers.forEach((num) => {
+  console.log(num * num);
+});
+
+let myArray = [1, 2, 3, 4, 5, 6, 7];
+
+let evenArray = arr.filter((val) => {
+  return val % 2 === 0;
+});
+console.log(evenArray);
+
+function addTwoNums(num1, num2) {
+  console.log(num1 + num2);
+}
+const result = addTwoNums(3, 5);
+console.group(" Result " + result);
