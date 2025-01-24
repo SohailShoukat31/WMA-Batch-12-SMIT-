@@ -1,0 +1,20 @@
+Javascript is a programming language 
+
+input =========> Computer/Laptop =========> Output 
+1 + 3 
+Instructions                                    3
+
+console.log is used for print a message to the console
+console.log("Hello World!");
+// Output Hello World!
+
+// Variables are container for store data :
+// Data Types 
+// Let const var 
+
+var variable can be re-declare and updatd  value  : A global  scope variable 
+let  variable can not be re-decalare but can be updated   : A block scope variable 
+const variable can not be  re-decalre or updated : A block scope variable 
+
+
+
