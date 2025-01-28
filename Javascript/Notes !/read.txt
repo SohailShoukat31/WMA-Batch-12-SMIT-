@@ -1,3 +1,40 @@
+
+// Low  level Programming Language
+// High level Programming Language
+
+// Translator 2 types 
+1 compilar   jo bhi code hi aik e saath code ko run kren
+2 tnterperttur  aik aik line ko ssath kre hai 
+
+Javascript made for browser 
+// ECMA  is Javascript ka ecmascript code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Javascript is a programming language 
 
 input =========> Computer/Laptop =========> Output 
