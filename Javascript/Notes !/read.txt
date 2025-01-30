@@ -1,3 +1,21 @@
+JavaScript was initially created to  'make web pages alive'  |  browser-only language
+JavaScript was created by Brendan Eich in 1995 at Netscape.
+When JavaScript was created, it initially had another name: “LiveScript”
+Java Vs JavaScript
+Java is a compiled, object-oriented language used for building large applications.
+JavaScript is an interpreted, scripting language primarily used in web browsers
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Low  level Programming Language
 // High level Programming Language
