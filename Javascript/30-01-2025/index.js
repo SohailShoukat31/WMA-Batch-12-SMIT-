@@ -13,3 +13,15 @@ var a = "Hello World !";
 alert(a);
 a = "Saylani iT";
 alert(a);
+
+alert("Hello World !");
+alert("Hello World !");
+
+// Usually, statements are written on separate lines to make the code more readable:
+alert("Hello");
+alert("Hello");
+
+alert(3 + 1 + 2);
+
+a = 10;
+console.log(a);
