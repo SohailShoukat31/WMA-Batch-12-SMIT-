@@ -45,3 +45,19 @@ console.log(currentUserName);
 
 // const age = someCode(birthday);
 // console.log(age);
+
+// console.log(document);
+document.write("Hello");
+
+var age = 15;
+alert(`My age is ${age}`);
+
+// Data Types
+
+let a = 2;
+let b = 3;
+let c = a++ - ++b + a++ + ++b * --a + b++;
+console.log(c);
+
+let d = ++b - a++ * ++a + b++ - a++ + ++b * ++b * ++a;
+console.log(d);
