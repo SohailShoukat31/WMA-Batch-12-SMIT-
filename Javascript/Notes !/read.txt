@@ -33,9 +33,13 @@ Javascript made for browser
 
 
 
-
-
-
+Pop    :  remove / delete  the element from Last. 
+Shift  :  remove / delete  the elemen form Start.
+Push   :  Add  the element from Last.   (Return Updated Length)
+Unshift:  Add  the element from Start.  (Return Updated Length) 
+Splice :  We can add, remove, and replace with splice 
+Slice  :  Create a copy of Array and Return 
+Note Aik Ziyada Index Batein gye
 
 
 

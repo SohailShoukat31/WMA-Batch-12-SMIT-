@@ -3,9 +3,9 @@ console.log("Hello Js ");
 let fName = "sohail";
 console.log(fName);
 
-// alert("Hello Js ");
-// confirm("Do you save file");
-// prompt("Enter the first name ");
+alert("Hello Js ");
+confirm("Do you save file");
+prompt("Enter the first name ");
 
 function showMessage() {
   alert("Hello World ");
@@ -39,8 +39,8 @@ function showName() {
 }
 showName();
 
-let arr = new Array();
-console.log(arr);
+// let arr = new Array();
+// console.log(arr);
 
 let arr2 = [];
 console.log(arr2);
@@ -71,3 +71,18 @@ console.log(isSure);
 // Task
 let name = prompt("Enter the name", "");
 alert(name);
+
+// Array
+let arr = ["Karachi", "Lahore"];
+arr[0] = [arr[1], (arr[1] = arr[0])][0];
+
+console.log(arr);
+
+let fruits = ["Apple", "Banana", "Grapes"];
+console.log(fruits);
+
+fruits[0] = [fruits[2], (fruits[2] = fruits[2])][0];
+console.log(fruits);
+
+let num = [3, 7, 12];
+console.log(num);
